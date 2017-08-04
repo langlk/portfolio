@@ -5,11 +5,23 @@ body {
   color: #4f400b;
 }
 
+a {
+  color: #137a08;
+}
+
+h2 a {
+  color: inherit;
+}
+
+.container {
+  max-width: 970px;
+}
+
 .jumbotron {
   background-color: #a3d69e;
 }
 
-.jumbotron .col-sm-4 {
+.jumbotron .col-sm-5 {
   text-align: center;
 }
 
@@ -22,8 +34,9 @@ body {
   background-color: #fcf7e5;
 }
 
-.jumbotron h3 {
+.jumbotron h2 {
   padding-left: 5px;
+  font-size: 40px;
 }
 
 ul.navigation-menu {
@@ -32,12 +45,14 @@ ul.navigation-menu {
   font-size: 20px;
 }
 
-a {
-  color: #137a08;
-}
+@media screen and (max-width: 991px) {
+  .jumbotron h1 {
+    font-size: 45px;
+  }
 
-h2 a {
-  color: inherit;
+  .jumbotron h2 {
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -45,8 +60,13 @@ h2 a {
     text-align: center;
   }
 
-  .jumbotron h3 {
+  .jumbotron h1 {
+    font-size: 35px;
+  }
+
+  .jumbotron h2 {
     padding: 0px;
+    font-size: 28px;
   }
 
   .navigation-menu {
@@ -56,5 +76,20 @@ h2 a {
   .navigation-menu li {
     display: inline-block;
     width: 30%;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  ul.navigation-menu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navigation-menu li {
+    list-style: none;
+    display: block;
+    width: 100%;
+    text-align: left;
   }
 }
