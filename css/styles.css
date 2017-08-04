@@ -1,0 +1,17 @@
+.jumbotron .col-sm-4 {
+  text-align: center;
+}
+
+.jumbotron img {
+  width: 300px;
+}
+
+img.img-responsive {
+  vertical-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    text-align: center;
+  }
+}
