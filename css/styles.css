@@ -101,7 +101,7 @@ ul.navigation-menu {
   }
 }
 
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 475px) {
   ul.navigation-menu {
     width: 75%;
     margin-left: auto;

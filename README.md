@@ -6,7 +6,7 @@
 
 ## Description
 
-_Portfolio homepage for Kelsey Langlois. Includes links to projects on GitHub, work and education background, and information on skills, interests, and hobbies._
+_Portfolio homepage for Kelsey Langlois. Includes links to projects on GitHub, work and education background, and information on interests and hobbies._
 
 _View on GitHub pages at [langlk.github.io/portfolio](https://langlk.github.io/portfolio/)._
 
