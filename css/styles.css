@@ -45,6 +45,24 @@ ul.navigation-menu {
   font-size: 20px;
 }
 
+.projects {
+  overflow: hidden;
+}
+
+.projects .col-1 {
+  width: 50%;
+  float: left;
+}
+
+.projects .col-2 {
+  width: 50%;
+  float: right;
+}
+
+.projects li h4 {
+  margin-bottom: 3px;
+}
+
 .languages {
   color: #918d81;
 }
@@ -95,5 +113,15 @@ ul.navigation-menu {
     display: block;
     width: 100%;
     text-align: left;
+  }
+
+  .projects .col-1 {
+    width: 100%;
+    float: none;
+  }
+
+  .projects .col-2 {
+    width: 100%;
+    float: none;
   }
 }
