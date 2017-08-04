@@ -10,8 +10,21 @@ img.img-responsive {
   vertical-align: center;
 }
 
+ul.navigation-menu {
+  padding: 0px;
+}
+
 @media screen and (max-width: 768px) {
   .jumbotron {
     text-align: center;
+  }
+
+  .navigation-menu {
+    text-align: center;
+  }
+
+  .navigation-menu li {
+    display: inline-block;
+    width: 30%;
   }
 }
