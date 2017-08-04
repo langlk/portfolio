@@ -67,6 +67,14 @@ ul.navigation-menu {
   color: #918d81;
 }
 
+ul.other-stuff {
+  margin-bottom: 30px;
+}
+
+.other-stuff li {
+  padding-bottom: 8px;
+}
+
 @media screen and (max-width: 991px) {
   .jumbotron h1 {
     font-size: 45px;
