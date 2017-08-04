@@ -45,6 +45,10 @@ ul.navigation-menu {
   font-size: 20px;
 }
 
+.languages {
+  color: #918d81;
+}
+
 @media screen and (max-width: 991px) {
   .jumbotron h1 {
     font-size: 45px;
